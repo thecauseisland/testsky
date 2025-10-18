@@ -1,2 +1,177 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en-GB"><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"/><style type="text/css">.payment-receipt-title{color:#222;font:normal 24px Arial,Helvetica,sans-serif;line-height:33px;display:inline-block;vertical-align:middle}.payment-receipt{max-width:680px;font:normal 13px Arial,Helvetica,sans-serif}.payment-receipt-section{margin-top:16px}.payment-receipt-section dd{margin:0}.payment-receipt-logo,.payment-receipt-address-info,.payment-receipt-label{display:inline-block;width:45%}.payment-receipt-logo img{vertical-align:middle}.payment-receipt-label{color:#222;font:bold 13px Arial,Helvetica,sans-serif;line-height:18px}.payment-receipt-google-image{vertical-align:middle}.payment-receipt-payment-info,.payment-receipt-value{display:inline-block;margin:0;vertical-align:top;width:50%}.payment-receipt-details-table{width:100%;font:normal 13px Arial,Helvetica,sans-serif}.payment-receipt-details-table,.payment-receipt-details-table td,.payment-receipt-details-table th{border:1px solid black;border-collapse:collapse;padding:2px 6px}.payment-receipt-details-table th{color:#222;font:bold 13px Arial,Helvetica,sans-serif;line-height:18px;text-align:left}.payment-receipt-wu-section>dt{border-bottom:1px solid black;margin-bottom:6px;width:100%}.payment-receipt-wu-section>dd{margin-left:6px}.payment-address-line{display:block}.new-payment-receipt{max-width:680px;font:normal 13px Arial,Helvetica,sans-serif;margin-left:50px;margin-right:50px;margin-top:50px;margin-bottom:50px}.new-payment-receipt .payment-receipt-title{color:#222;font:normal 18px Arial,Helvetica,sans-serif;line-height:33px;display:block}.new-payment-receipt .payment-receipt-logo img{vertical-align:middle;width:45%}.payment-amount-section{margin-top:50px;margin-bottom:50px}.payment-amount-date{font:normal 22px Arial,Helvetica,sans-serif;line-height:20px}.payment-amount{font:normal 35px Arial,Helvetica,sans-serif}.payment-receipt-payment-info-section{vertical-align:top;margin:0;width:100%}.new-payment-receipt .payment-receipt-payment-info{display:inline-block;vertical-align:top;width:33.33%}.new-payment-receipt .payment-receipt-label{color:#222;font:bold 13px Arial,Helvetica,sans-serif;line-height:18px;display:inline-block;width:100%}.new-payment-receipt .payment-receipt-value{margin:0;width:100%;display:inline-block}.payment-receipt-footnote{display:block;margin-top:50px;margin-bottom:50px}.footnote{color:grey;font:normal 13px Arial,Helvetica,sans-serif}.footnote-link{color:grey;text-decoration:underline}sentinel{}</style></head><body><div class="payment-receipt"><div class="payment-receipt-section"><div class="payment-receipt-logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAApCAYAAADkig0OAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDlGNjU3N0U2Q0Q2MTFFNUEyMzhERkZFQUYyMjcxNDAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDlGNjU3N0Y2Q0Q2MTFFNUEyMzhERkZFQUYyMjcxNDAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDMzA2MDZGRjZDNEExMUU1QTIzOERGRkVBRjIyNzE0MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDMzA2MDcwMDZDNEExMUU1QTIzOERGRkVBRjIyNzE0MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pu2pG5QAAAldSURBVHja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" alt="Google logo" class="logo-img"></div><h1 class="payment-receipt-title">Payment Receipt</h1></div><div class="payment-receipt-section"><div class="payment-receipt-address-info"><div class="payment-receipt-section payment-receipt-google-address"><span class="payment-address-line">Google Asia Pacific Pte. Ltd.</span><span class="payment-address-line">70 Pasir Panjang Road, #03-71</span><span class="payment-address-line">Mapletree Business City</span><span class="payment-address-line">Singapore 117371</span></div><div class="payment-receipt-section"><dl><dt>Tax identification number</dt><dd class="tax-id-number">200817984R</dd></dl></div><div class="payment-receipt-section payment-receipt-customer-address"><span class="payment-address-line">Rahul Baloda</span><span class="payment-address-line">Village-Kesharpura, Tehsil-Jawad</span><span class="payment-address-line">District-Neemuch</span><span class="payment-address-line">Neemuch, Madhya Pradesh 458468</span><span class="payment-address-line">India</span></div></div><dl class="payment-receipt-payment-info payment-receipt-section"><dt class="payment-receipt-label">Payment date</dt><dd class="payment-receipt-value">21 Aug 2022</dd><dt class="payment-receipt-label">Billing ID</dt><dd class="payment-receipt-value">9277-0503-3752</dd><dt class="payment-receipt-label">Payment method</dt><dd class="payment-receipt-value">Bank transfer to bank account  • • • • 108</dd><dt class="payment-receipt-label">Payment number</dt><dd class="payment-receipt-payment-number payment-receipt-value">GG102X4TPC</dd></dl></div><table class="payment-receipt-section payment-receipt-details-table"><tbody><tr><th>Description</th><th></th></tr><tr><td>Payment amount</td><td class="payment-receipt-amount">US$1,315.90</td></tr></tbody></table></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Salary Slip - Kalp Jain - October 2025</title>
+<style>
+  body{font-family: Arial, Helvetica, sans-serif; color:#222; margin:24px; background:#fff;}
+  .container{max-width:760px; margin:0 auto; border:1px solid #dcdcdc; padding:22px;}
+  header{display:flex; justify-content:space-between; align-items:flex-start; gap:16px;}
+  .company{line-height:1.1;}
+  .company h2{margin:0; font-size:18px; letter-spacing:0.2px;}
+  .company small{display:block; color:#555; margin-top:6px; font-size:12px;}
+  .meta{font-size:13px; text-align:right; color:#333;}
+  .section{margin-top:18px;}
+  table{width:100%; border-collapse:collapse; margin-top:6px; font-size:13px;}
+  th, td{padding:8px 10px; border:1px solid #dcdcdc; text-align:left; vertical-align:middle;}
+  th{background:#f6f6f6; font-weight:700;}
+  .two-col{display:flex; gap:18px;}
+  .two-col > div{flex:1;}
+  .right{text-align:right;}
+  .amount{font-family: 'Segoe UI', Roboto, Arial, sans-serif;}
+  .big{font-weight:700; font-size:15px;}
+  .notes{font-size:12px; color:#444; margin-top:12px; line-height:1.45;}
+  .footer{display:flex; justify-content:space-between; margin-top:20px; align-items:center;}
+  .sign{font-size:13px; color:#333; text-align:left;}
+  .prepared{font-size:13px; color:#333; text-align:right;}
+  .amount-words{font-style:italic; color:#333;}
+  @media print{
+    body{margin:0;}
+    .container{border:0; padding:0; margin:0;}
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="document" aria-label="Salary Slip for Kalp Jain">
+    <header>
+      <div class="company" aria-hidden="false">
+        <h2>GOOGLE INDIA PRIVATE LIMITED</h2>
+        <small>
+          Regd. Office: 3rd Floor, Signature Towers, South City‑I, Gurugram, Haryana – 122001<br>
+          Branch Office: 6th Floor, FIFC Building, Bandra Kurla Complex, Mumbai – 400051<br>
+          CIN: U72900DL2003PTC119630 | GSTIN (Maharashtra): 27AACCG0527D1Z4
+        </small>
+      </div>
+      <div class="meta" aria-hidden="false">
+        <div style="font-weight:700; font-size:16px;">Salary Slip</div>
+        <div style="margin-top:6px;">For the Month of October 2025</div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="two-col" role="group" aria-label="Employee details and payment info">
+        <div>
+          <table aria-label="Employee Details">
+            <tbody>
+              <tr><th colspan="2">Employee Details</th></tr>
+              <tr><td>Employee Name</td><td><strong>Kalp Jain</strong></td></tr>
+              <tr><td>Employee ID</td><td>GGL-IN-L3-001</td></tr>
+              <tr><td>Designation</td><td>Software Engineer (L3)</td></tr>
+              <tr><td>Department</td><td>Engineering</td></tr>
+              <tr><td>Location</td><td>Mumbai, Maharashtra</td></tr>
+              <tr><td>Pay Period</td><td>01 October 2025 – 31 October 2025</td></tr>
+              <tr><td>Date of Payment</td><td>31 October 2025</td></tr>
+              <tr><td>Bank A/C No.</td><td>XXXX XXXX XXXX 1234</td></tr>
+              <tr><td>PAN</td><td>ABCDE1234F</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+          <table aria-label="Payment summary">
+            <tbody>
+              <tr><th colspan="2">Payment Summary</th></tr>
+              <tr><td>Annual Gross Salary</td><td class="right amount">₹2,727,000.00</td></tr>
+              <tr><td>Monthly Gross (Cash)</td><td class="right amount big">₹227,250.00</td></tr>
+              <tr><td>Net Salary (Monthly)</td><td class="right amount big">₹187,055.00</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Earnings">
+      <table>
+        <thead>
+          <tr><th>Description</th><th class="right">Amount (₹)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Basic Salary</td><td class="right amount">90,900.00</td></tr>
+          <tr><td>House Rent Allowance (HRA)</td><td class="right amount">36,360.00</td></tr>
+          <tr><td>Conveyance Allowance</td><td class="right amount">1,600.00</td></tr>
+          <tr><td>Medical Allowance</td><td class="right amount">1,250.00</td></tr>
+          <tr><td>Special Allowance</td><td class="right amount">97,140.00</td></tr>
+          <tr><td class="big">Gross Earnings</td><td class="right amount big">227,250.00</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section" aria-label="Deductions">
+      <table>
+        <thead>
+          <tr><th>Description</th><th class="right">Amount (₹)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Employee Provident Fund (12% of Basic)</td><td class="right amount">10,908.00</td></tr>
+          <tr><td>Professional Tax (Maharashtra)</td><td class="right amount">200.00</td></tr>
+          <tr><td>Income Tax (TDS – estimated)</td><td class="right amount">29,087.00</td></tr>
+          <tr><td class="big">Total Deductions</td><td class="right amount big">40,195.00</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section" aria-label="Net pay">
+      <table>
+        <tbody>
+          <tr><th>Description</th><th class="right">Amount (₹)</th></tr>
+          <tr><td class="big">Net Salary (Gross – Deductions)</td><td class="right amount big">₹187,055.00</td></tr>
+          <tr><td>Amount in Words</td><td class="amount-words">Rupees One Lakh Eighty-Seven Thousand and Fifty-Five Only</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section" aria-label="Employer contributions">
+      <table>
+        <thead>
+          <tr><th>Description</th><th class="right">Amount (₹)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Employer Provident Fund (12% of Basic)</td><td class="right amount">10,908.00</td></tr>
+          <tr><td>Gratuity (4.81% of Basic)</td><td class="right amount">4,372.00</td></tr>
+          <tr><td class="big">Total Employer Cost (Monthly)</td><td class="right amount big">₹242,530.00</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section" aria-label="Summary">
+      <table>
+        <tbody>
+          <tr><td>Annual Gross Salary</td><td class="right amount">₹2,727,000.00</td></tr>
+          <tr><td>Standard Deduction (New Regime)</td><td class="right amount">₹75,000.00</td></tr>
+          <tr><td>EPF (Employee Annual Contribution)</td><td class="right amount">₹130,896.00</td></tr>
+          <tr><td>Professional Tax (Annual)</td><td class="right amount">₹2,400.00</td></tr>
+          <tr><td>Approximate Annual Taxable Income</td><td class="right amount">₹2,518,704.00</td></tr>
+          <tr><td>Estimated Annual Income Tax (New Regime, incl. 4% Cess)</td><td class="right amount">₹349,036.00</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section notes" aria-label="Notes">
+      <strong>Notes</strong>
+      <ol>
+        <li>Salary components are structured as per Google India compensation policy.</li>
+        <li>Deductions include statutory contributions under the Employees’ Provident Fund and Miscellaneous Provisions Act, 1952, and professional tax as per Maharashtra State Tax on Professions, Trades, Callings and Employments Act.</li>
+        <li>Income tax deduction (TDS) is computed on an estimated basis as per prevailing Income Tax Act, 1961 (New Tax Regime).</li>
+        <li>Gratuity accrual is calculated at 4.81% of Basic Pay as per Payment of Gratuity Act, 1972.</li>
+        <li>Salaries are not subject to GST; GSTIN is included for company identification only.</li>
+        <li>This is a computer-generated salary slip and does not require a physical signature.</li>
+      </ol>
+    </section>
+
+    <div class="footer">
+      <div class="sign">
+        <div>Prepared By:</div>
+        <div style="margin-top:8px; font-weight:700;">Human Resources Department</div>
+      </div>
+      <div class="prepared">
+        <div>Authorised By:</div>
+        <div style="margin-top:8px; font-weight:700;">Finance Department</div>
+        <div style="margin-top:6px; font-size:12px; color:#666;">Google India Pvt. Ltd.</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
