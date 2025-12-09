@@ -1,242 +1,143 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="id">
 <head>
-
 <meta charset="utf-8" />
-
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-<title>Salary Slip - Priyal Jain - September 2025</title>
-
+<title>Hospital Bill - RSU Bali Jimbaran - SAMPLE</title>
 <style>
-
 body{font-family: Arial, Helvetica, sans-serif; color:#222; margin:24px; background:#fff;}
-
 .container{max-width:760px; margin:0 auto; border:1px solid #dcdcdc; padding:22px;}
-
-header{display:flex; justify-content:space-between; align-items:flex-start; gap:16px;}
-
-.company{line-height:1.1;}
-
-.company h2{margin:0; font-size:18px; letter-spacing:0.2px;}
-
-.company small{display:block; color:#555; margin-top:6px; font-size:12px;}
-
+.header-wrap{display:flex; justify-content:space-between; align-items:flex-start; gap:16px;}
+.hospital{line-height:1.1;}
+.hospital h2{margin:0; font-size:18px; letter-spacing:0.2px;}
+.hospital small{display:block; color:#555; margin-top:6px; font-size:12px;}
 .meta{font-size:13px; text-align:right; color:#333;}
-
 .section{margin-top:18px;}
-
 table{width:100%; border-collapse:collapse; margin-top:6px; font-size:13px;}
-
 th, td{padding:8px 10px; border:1px solid #dcdcdc; text-align:left; vertical-align:middle;}
-
 th{background:#f6f6f6; font-weight:700;}
-
 .two-col{display:flex; gap:18px;}
-
 .two-col > div{flex:1;}
-
 .right{text-align:right;}
-
 .amount{font-family: 'Segoe UI', Roboto, Arial, sans-serif;}
-
 .big{font-weight:700; font-size:15px;}
-
-.notes{font-size:12px; color:#444; margin-top:12px; line-height:1.45;}
-
+.sample-note{background:#fff3cd; border:1px solid #ffeeba; padding:10px; color:#7a582a; margin-bottom:14px; border-radius:4px; font-size:13px;}
 .footer{display:flex; justify-content:space-between; margin-top:20px; align-items:center;}
-
 .sign{font-size:13px; color:#333; text-align:left;}
-
 .prepared{font-size:13px; color:#333; text-align:right;}
-
 .amount-words{font-style:italic; color:#333;}
-
 @media print{
-
-body{margin:0;}
-
-.container{border:0; padding:0; margin:0;}
-
+  body{margin:0;}
+  .container{border:0; padding:0; margin:0;}
 }
-
 </style>
-
 </head>
-
 <body>
+<div class="container" role="document" aria-label="Sample Hospital Bill - RSU Bali Jimbaran">
 
-<div class="container" role="document" aria-label="Salary Slip for Kalp Jain">
+  <div class="sample-note" role="note">
+    <strong>SAMPLE DOCUMENT — FOR TUTORIAL PURPOSES ONLY.</strong>
+    This is not an official hospital bill and must not be used to represent or impersonate real billing documents.
+  </div>
 
-<header>
+  <header class="header-wrap">
+    <div class="hospital" aria-hidden="false">
+      <!-- Use the hospital logo or placeholder -->
+      <img src="https://via.placeholder.com/140x40?text=RSU+Bali+Jimbaran" alt="RSU Bali Jimbaran Logo" style="height:40px; margin-right:12px;">
+      <h2>RUMAH SAKIT UMUM BALI JIMBARAN</h2>
+      <small>
+        Jl. Raya Kampus Unud No.52, Jimbaran, Kec. Kuta Sel.,<br>
+        Kabupaten Badung, Bali 80361
+      </small>
+      <small style="display:block; margin-top:8px;">
+        Website: rsubj.com | Email: info@rsbalijimbaran.com | Tel: (0361) 4725123 | WA: +62 812-3897-7403
+      </small>
+    </div>
 
-<div class="company" aria-hidden="false">
+    <div class="meta" aria-hidden="false">
+      <div style="font-weight:700; font-size:16px;">Hospital Bill (Sample)</div>
+      <div style="margin-top:6px;">Bill Date: 09 December 2025</div>
+      <div style="margin-top:4px; font-size:12px;">Invoice #: SAMP-20251209-001</div>
+    </div>
+  </header>
 
-<img src="https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw" alt="Google Logo" style="height:40px; margin-right:12px;">
+  <section class="section" aria-label="Patient and Billing details">
+    <div class="two-col" role="group" aria-label="Patient and billing info">
+      <div>
+        <table aria-label="Patient Details">
+          <tbody>
+            <tr><th colspan="2">Patient Details</th></tr>
+            <tr><td>Patient Name</td><td><strong>Priyal Jain</strong></td></tr>
+            <tr><td>Patient ID</td><td>PT-SAMP-3364</td></tr>
+            <tr><td>Address</td><td>Jl. Example No.1, Denpasar (Sample)</td></tr>
+            <tr><td>Admission Date</td><td>08 December 2025</td></tr>
+            <tr><td>Discharge Date</td><td>09 December 2025</td></tr>
+          </tbody>
+        </table>
+      </div>
 
-<h2>GOOGLE INDIA PRIVATE LIMITED</h2>
+      <div>
+        <table aria-label="Billing Summary">
+          <tbody>
+            <tr><th colspan="2">Billing Summary</th></tr>
+            <tr><td>Currency</td><td class="right amount">IDR</td></tr>
+            <tr><td>Original Amount</td><td class="right amount">₹145,000.00 (INR)</td></tr>
+            <tr><td class="big">Converted Amount (approx.)</td><td class="right amount big">Rp 26,904,750</td></tr>
+            <tr><td>Conversion Rate (approx.)</td><td class="right amount">1 INR ≈ 185.55 IDR</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 
-<small>
+  <section class="section" aria-label="Charges">
+    <table>
+      <thead>
+        <tr><th>Description</th><th class="right">Amount (IDR)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Emergency Consultation</td><td class="right amount">1,200,000</td></tr>
+        <tr><td>Doctor Fee</td><td class="right amount">2,500,000</td></tr>
+        <tr><td>Laboratory Tests</td><td class="right amount">3,150,000</td></tr>
+        <tr><td>Radiology / Imaging</td><td class="right amount">1,900,000</td></tr>
+        <tr><td>Medications & Consumables</td><td class="right amount">4,650,000</td></tr>
+        <tr><td>Room & Board (1 night)</td><td class="right amount">2,100,000</td></tr>
+        <tr><td>Procedures / Minor Operation</td><td class="right amount">10,500,000</td></tr>
+        <tr><td class="big">Subtotal</td><td class="right amount big">Rp 26,000,000</td></tr>
+        <tr><td>Administrative Fee</td><td class="right amount">150,000</td></tr>
+        <tr><td class="big">Total Due (rounded)</td><td class="right amount big">Rp 26,150,000</td></tr>
+      </tbody>
+    </table>
+  </section>
 
-Branch Office: Level 7, Plot C, FIFC Building, 54&55,<br>
+  <section class="section" aria-label="Payment info">
+    <table>
+      <tbody>
+        <tr><th>Payment Method</th><th class="right">Details</th></tr>
+        <tr><td>Cash / Card / Transfer</td><td class="right">Accepted</td></tr>
+        <tr><td>Bank Transfer (Hospital Account)</td><td class="right">BCA - 123-456-789 (Sample account for tutorial)</td></tr>
+        <tr><td>Amount in Words</td>
+            <td class="amount-words">Dua puluh enam juta sembilan ratus empat ribu tujuh ratus lima puluh rupiah</td></tr>
+      </tbody>
+    </table>
+  </section>
 
-G Block BKC, Bandra East, Mumbai, Maharashtra 400098<br>
+  <section class="notes" style="margin-top:12px; font-size:12px; color:#444;">
+    <p><strong>Important (SAMPLE):</strong> This document is a <em>sample</em> created for tutorial purposes only. It is intentionally labelled and should not be used as an actual hospital billing document.</p>
+    <p>Public contact details for RSU Bali Jimbaran (used here for demo): Tel (Hunting): (0361) 4725123 | WA Pendaftaran: +62 812-3897-7403 | Email: info@rsbalijimbaran.com | Website: rsubj.com</p>
+  </section>
 
-CIN: U72900DL2003PTC119630 | GSTIN (Maharashtra): 27AACCG0527D1Z4
-
-</small>
-
-</div>
-
-<div class="meta" aria-hidden="false">
-
-<div style="font-weight:700; font-size:16px;">Salary Slip</div>
-
-<div style="margin-top:6px;">Date of Generation: 02 September 2025</div>
-
-</div>
-
-</header>
-
-<section class="section">
-
-<div class="two-col" role="group" aria-label="Employee details and payment info">
-
-<div>
-
-<table aria-label="Employee Details">
-
-<tbody>
-
-<tr><th colspan="2">Employee Details</th></tr>
-
-<tr><td>Employee Name</td><td><strong>Priyal Jain</strong></td></tr>
-
-<tr><td>Employee ID</td><td>GGL-IN-L3-033</td></tr>
-
-<tr><td>Designation</td><td>Software Engineer (L3)</td></tr>
-
-<tr><td>Department</td><td>Engineering</td></tr>
-
-<tr><td>Location</td><td>Mumbai, Maharashtra</td></tr>
-
-<tr><td>Pay Period</td><td>01 August 2025 – 31 August 2025</td></tr>
-
-<tr><td>Date of Payment</td><td>02 September 2025</td></tr>
-
-<tr><td>Bank A/C No.</td><td>XXXX XXXX XXXX 0990</td></tr>
-
-<tr><td>PAN</td><td>CCAPJ2408K</td></tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-<div>
-
-<table aria-label="Payment summary">
-
-<tbody>
-
-<tr><th colspan="2">Payment Summary</th></tr>
-
-<tr><td>Annual Gross Salary</td><td class="right amount">₹2,727,000.00</td></tr>
-
-<tr><td>Monthly Gross (Cash)</td><td class="right amount big">₹227,250.00</td></tr>
-
-<tr><td>Net Salary (Monthly)</td><td class="right amount big">₹187,055.00</td></tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section" aria-label="Earnings">
-<table>
-<thead>
-<tr><th>Description</th><th class="right">Amount (₹)</th></tr>
-</thead>
-<tbody>
-<tr><td>Basic Salary</td><td class="right amount">90,900.00</td></tr>
-<tr><td>House Rent Allowance (HRA)</td><td class="right amount">36,360.00</td></tr>
-<tr><td>Conveyance Allowance</td><td class="right amount">1,600.00</td></tr>
-<tr><td>Medical Allowance</td><td class="right amount">1,250.00</td></tr>
-<tr><td>Special Allowance</td><td class="right amount">55,240.00</td></tr>
-<tr><td class="big">Gross Earnings</td><td class="right amount big">185,350.00</td></tr>
-</tbody>
-</table>
-</section>
-
-<section class="section" aria-label="Deductions">
-<table>
-<thead>
-<tr><th>Description</th><th class="right">Amount (₹)</th></tr>
-</thead>
-<tbody>
-<tr><td>Employee Provident Fund (12% of Basic)</td><td class="right amount">10,908.00</td></tr>
-<tr><td>Professional Tax (Maharashtra)</td><td class="right amount">200.00</td></tr>
-<tr><td>Income Tax (TDS – estimated)</td><td class="right amount">21,057.00</td></tr>
-<tr><td class="big">Total Deductions</td><td class="right amount big">32,165.00</td></tr>
-</tbody>
-</table>
-</section>
-
-<section class="section" aria-label="Net pay">
-<table>
-<tbody>
-<tr><th>Description</th><th class="right">Amount (₹)</th></tr>
-<tr><td class="big">Net Salary (Gross – Deductions)</td><td class="right amount big">₹153,185.00</td></tr>
-<tr><td>Amount in Words</td><td class="amount-words">Rupees One Lakh Eighty-Seven Thousand and Fifty-Five Only</td></tr>
-</tbody>
-</table>
-</section>
-
-<section class="section" aria-label="Employer contributions">
-<table>
-<thead>
-<tr><th>Description</th><th class="right">Amount (₹)</th></tr>
-</thead>
-<tbody>
-<tr><td>Employer Provident Fund (12% of Basic)</td><td class="right amount">10,908.00</td></tr>
-<tr><td>Gratuity (4.81% of Basic)</td><td class="right amount">4,372.00</td></tr>
-<tr><td class="big">Total Employer Cost (Monthly)</td><td class="right amount big">₹242,530.00</td></tr>
-</tbody>
-</table>
-</section>
-
-<section class="notes">
-<p>Notes:</p>
-<ul>
-<li>Salary components are structured as per Google India compensation policy.</li>
-<li>Deductions include statutory contributions under the Employees' Provident Fund and Miscellaneous Provisions Act, 1952, and professional tax as per Maharashtra State Tax on Professions, Trades, Callings and Employments Act.</li>
-<li>Income tax deduction (TDS) is computed on an estimated basis as per prevailing Income Tax Act, 1961 (New Tax Regime).</li>
-<li>Gratuity accrual is calculated at 4.81% of Basic Pay as per Payment of Gratuity Act, 1972.</li>
-<li>Salaries are not subject to GST; GSTIN is included for company identification only.</li>
-<li>This is a computer-generated salary slip and does not require a physical signature.</li>
-</ul>
-</section>
-
-<section class="footer">
-<div class="sign">
-<p>Prepared By:</p>
-<p>Human Resources B3</p>
-</div>
-<div class="prepared">
-<p>Authorised By:</p>
-<p>Finance Department B3 Google India Pvt. Ltd., Mumbai</p>
-</div>
-</section>
+  <section class="footer">
+    <div class="sign">
+      <p>Prepared By:</p>
+      <p>Billing Dept. (Sample)</p>
+    </div>
+    <div class="prepared">
+      <p>Authorised By:</p>
+      <p>RSU Bali Jimbaran — Finance (Sample)</p>
+    </div>
+  </section>
 
 </div>
-
 </body>
-
 </html>
